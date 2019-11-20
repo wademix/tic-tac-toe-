@@ -1,0 +1,143 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+}
+h1 {
+  font-size: 3rem;
+  color: rgb(65, 64, 64);
+}
+.btn-xl {
+  padding: 1em 1em;
+}
+.customb {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-info:hover {
+  border-width: 4px;
+}
+hr {
+  border-color: #17a2b8;
+  border-width: 3px;
+  max-width: 65px;
+}
+.buffer {
+  height: 5rem;
+}
+.button {
+  background-color: #0da192;
+  border: none;
+  color: #ffffff;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 100px;
+  outline: none;
+}
+.button:hover {
+  background-color: #12dac6;
+  cursor: pointer;
+}
+.grid-container {
+  background: #a88beb; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #a88beb),
+    color-stop(44%, #f1a7f1),
+    color-stop(100%, #f8ceec)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* W3C */
+  width: 321px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7px;
+}
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*   padding-left: 160px;
+  padding-top: 10px; */
+}
+.purple {
+  background: #a88beb; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #a88beb),
+    color-stop(44%, #f1a7f1),
+    color-stop(100%, #f8ceec)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    top,
+    #a88beb 0%,
+    #f1a7f1 44%,
+    #f8ceec 100%
+  ); /* W3C */
+}
+
+.winner {
+  color: orange;
+}
